@@ -11,7 +11,7 @@
 ## 注册和登录
 __初始界面：用户选择登录or注册__
 
-<img src="https://s2.ax1x.com/2019/09/08/nGeNn0.png" style=" width="300"/> 
+<img src="https://s2.ax1x.com/2019/09/08/nGeNn0.png" width="300"/> 
 
 __注册界面&登录界面__
 
