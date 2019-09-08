@@ -2,7 +2,7 @@
 
 ## 项目框架
 
-<img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250"/> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:250px;height:480px;" /> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:250px;height:480px;" />
+<img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250"/> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250/> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250/>
 
 
 
