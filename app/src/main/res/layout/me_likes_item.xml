@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <com.example.news.Bean.MyImageView
+        android:id="@+id/iv_usericon_like"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_usericon_like"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/tv_name_like"
+            android:layout_width="wrap_content"
+            android:textColor="#165B92"
+            android:layout_height="wrap_content"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D60808"
+            android:text="♡"
+            android:lines="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_time_like"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#535151"
+            android:text="17:00"/>
+
+    </LinearLayout>
+
+    <com.example.news.Bean.MyImageView
+        android:id="@+id/iv_pic_like"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

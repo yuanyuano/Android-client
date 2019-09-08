@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item1"
+            android:title="我的收藏"
+            android:icon="@mipmap/menu_item1"></item>
+        <item
+            android:id="@+id/menu_item2"
+            android:title="我的点赞"
+            android:icon="@mipmap/menu_item2"></item>
+        <item
+            android:id="@+id/menu_item3"
+            android:title="我的评论"
+            android:icon="@mipmap/menu_item3"></item>
+        <item
+            android:id="@+id/menu_item4"
+            android:title="我的动态"
+            android:icon="@mipmap/menu_item4"></item>
+        <item
+            android:id="@+id/menu_item5"
+            android:title="个人设置"
+            android:icon="@mipmap/menu_item5"></item>
+        <item
+            android:id="@+id/menu_item6"
+            android:title="注销"
+            android:icon="@mipmap/menu_item5"></item>
+    </group>
+
+</menu>

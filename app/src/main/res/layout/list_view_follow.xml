@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="10dp">
+    <com.example.news.Bean.MyImageView
+        android:id="@+id/follow_iv_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_launcher_round" />
+    <TextView
+        android:id="@+id/follow_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="姓名"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:layout_toEndOf="@id/follow_iv_image" />
+
+    <TextView
+        android:id="@+id/follow_tv_qianming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/follow_iv_image"
+        android:layout_below="@id/follow_tv_name"
+        android:text="在这个世界，还存在着..."
+        android:textSize="14dp" />
+    <Button
+        android:id="@+id/follow_btn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:text="关注"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/text_blue"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:text="已关注"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/bg_topbar"
+        android:orientation="vertical">
+
+        <com.example.news.Bean.MyImageView
+            android:id="@+id/iv_menu_user"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="42dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/a" />
+
+        <TextView
+            android:id="@+id/tv_menu_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Tomori Nao"
+            android:textColor="@color/text_white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_menu_usersign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="aaa"
+
+            android:textColor="@color/text_white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

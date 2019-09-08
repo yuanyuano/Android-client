@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="7dp">
+
+        <com.example.news.Bean.MyImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/img_avatar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:textSize="20sp"
+            android:textColor="#111"
+            android:text="小王"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_time"
+            android:textSize="15sp"
+            android:textColor="#666"
+            android:text="2018-8-21"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_content"
+            android:textSize="20sp"
+            android:textColor="#444"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="哈哈哈哈或或或或或或或或或或或或或或或或或或或哈哈哈哈哈哈哈"/>
+        <com.example.news.NineGrid.NineGridTestLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_image"
+            app:sapcing="4dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/img_shoucang"
+                android:background="@drawable/shoucang"/>
+
+            <ImageView                                       
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/img_pinglun"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pinglun"/>
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/img_dianzan"
+                android:layout_toLeftOf="@id/tv_num_dianzan"
+                android:background="@drawable/dianzan"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_num_dianzan"
+                android:layout_alignParentRight="true"
+                android:textColor="#8a8a8a"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

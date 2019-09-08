@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#F44336"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/follow_back"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/left"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="关注"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/save_user"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/bg_gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/search"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"/>
+        <EditText
+            android:id="@+id/follow_ed"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="输入账号"
+            android:textColor="@color/text_gray"
+            android:layout_marginStart="10dp"
+            android:background="@null"/>
+        <Button
+            android:id="@+id/follow_search_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:background="@color/text_blue"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="@color/bg_gray"/>
+
+<!--    <ListView
+        android:id="@+id/follow_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp">
+        <com.example.news.Bean.MyImageView
+            android:id="@+id/follow_iv_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/follow_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_toEndOf="@id/follow_iv_image" />
+
+        <TextView
+            android:id="@+id/follow_tv_qianming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/follow_iv_image"
+            android:layout_below="@id/follow_tv_name"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/follow_btn"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="关注"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/text_blue"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/follow_tv"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="已关注"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</LinearLayout>

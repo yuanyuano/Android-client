@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_topbar">#F44336</color>
+    <color name="bg_gray">#C2B4B4</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="color_f6">#f6f6f6</color>
+
+    //Fragment
+    <color name="text_topbar">#FFFFFF</color>
+    <color name="div_white">#FFFFFF</color>
+    <color name="div_gray">#C7BCBC</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="text_gray">#bfbfbf</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_blue">#99CCFF</color>
+    <color name="text_yellow">#F44336</color>
+</resources>
