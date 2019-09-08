@@ -15,7 +15,7 @@ __初始界面：用户选择登录or注册__
 
 __注册界面&登录界面__
 
-<img src="https://s2.ax1x.com/2019/09/08/nGe6j1.png" width="300"/> <img src="https://s2.ax1x.com/2019/09/08/nGeRHK.png" width="300"/>
+<img src="https://s2.ax1x.com/2019/09/08/nGe6j1.png" height="550"/> <img src="https://s2.ax1x.com/2019/09/08/nGeRHK.png" height="550"/>
 
 _登录和注册功能的实现主要使用**OKHTTP3**方式与服务器进行交互_，两者的技术实现几乎完全一样。
 
@@ -96,7 +96,7 @@ _提醒：_ 注册的上传头像功能我用了一个第三方工具，我自�
 ## 整体布局
 登录成功以后进入主界面——动态页面，侧滑栏为 __个人信息__。
 
-<img src="https://s2.ax1x.com/2019/09/08/nGegnx.png" width="300"/> <img src="https://s2.ax1x.com/2019/09/08/nGe0NF.png" width="300"/> 
+<img src="https://s2.ax1x.com/2019/09/08/nGegnx.png" height="550"/> <img src="https://s2.ax1x.com/2019/09/08/nGe0NF.png" height="550"/> 
 
 列表的布局采用ListView、数据源和Adapter配合实现。
 
@@ -166,7 +166,7 @@ private void initView(){
 
 ## 搜索和关注好友
 
-<img src="https://s2.ax1x.com/2019/09/08/nGeycR.png" width="300"/> <img src="https://s2.ax1x.com/2019/09/08/nGe2B6.png" width="300"/>
+<img src="https://s2.ax1x.com/2019/09/08/nGeycR.png" height="550"/> <img src="https://s2.ax1x.com/2019/09/08/nGe2B6.png" height="550"/>
 
 __查询好友id：__
 _将id提交给服务器查询，根据收到的其回复来判断是否存在该用户_
