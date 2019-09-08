@@ -97,7 +97,8 @@ _提醒：_ 注册的上传头像功能我用了一个第三方工具，我自�
 ## 整体布局
 登录成功以后进入主界面——动态页面，侧滑栏为 __个人信息__。
 
-<img src="https://s2.ax1x.com/2019/09/08/nGegnx.png" style="width:300px;height:500px;" /> <img src="https://s2.ax1x.com/2019/09/08/nGe0NF.png" style="width:300px;height:500px;" /> 
+<img src="https://s2.ax1x.com/2019/09/08/nGegnx.png" style="width:300px;height:500px;" /> 
+<img src="https://s2.ax1x.com/2019/09/08/nGe0NF.png" style="width:300px;height:500px;" /> 
 
 列表的布局采用ListView、数据源和Adapter配合实现。
 
