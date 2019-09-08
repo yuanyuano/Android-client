@@ -431,5 +431,6 @@ Handler handlerPra = new Handler(){
 
 # 协议
 
-本项目遵从
+本项目遵从[MIT协议](https://github.com/yuanyuano/Android/blob/master/LICENSE)
+
 
