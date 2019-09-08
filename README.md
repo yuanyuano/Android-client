@@ -4,8 +4,6 @@
 
 <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250"/> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250"/> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" width="250"/>
 
-
-
 ## 网络传输
 我们采用OKHTTP3的网络方式与服务器进行数据交互，将数据打包成Jason格式进行传输。我这里只给客户端的代码。
 
@@ -13,7 +11,7 @@
 ## 注册和登录
 __初始界面：用户选择登录or注册__
 
-<img src="https://s2.ax1x.com/2019/09/08/nGeNn0.png" style="width:300px;height:500px;" /> 
+<img src="https://s2.ax1x.com/2019/09/08/nGeNn0.png" style=" width="300"/> 
 
 __注册界面&登录界面__
 
