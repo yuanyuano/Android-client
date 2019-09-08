@@ -2,7 +2,7 @@
 
 ## 项目框架
 
-<img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:260px;height:500px;" /><img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:260px;height:500px;" /><img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:260px;height:500px;" />
+<img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:250px;height:480px;" /> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:250px;height:480px;" /> <img src="https://s2.ax1x.com/2019/09/08/nGeBh4.png" style="width:250px;height:480px;" />
 
 
 
@@ -17,7 +17,7 @@ __初始界面：用户选择登录or注册__
 
 __注册界面&登录界面__
 
-<img src="https://s2.ax1x.com/2019/09/08/nGe6j1.png" style="width:300px;height:500px;" /><img src="https://s2.ax1x.com/2019/09/08/nGeRHK.png" style="width:300px;height:500px;" />
+<img src="https://s2.ax1x.com/2019/09/08/nGe6j1.png" style="width:300px;height:500px;" /> <img src="https://s2.ax1x.com/2019/09/08/nGeRHK.png" style="width:300px;height:500px;" />
 
 _登录和注册功能的实现主要使用**OKHTTP3**方式与服务器进行交互_，两者的技术实现几乎完全一样。
 
