@@ -91,6 +91,7 @@ client.newCall(request).enqueue(new Callback() {
     }
 });
 ```
+
 _提醒：_ 注册的上传头像功能我用了一个第三方工具，我自己写的老是遇到各种报错问题，建议用第三方实现，第三方工具在后面会给出链接。
 ## 整体布局
 登录成功以后进入主界面——动态页面，侧滑栏为 __个人信息__。
@@ -164,6 +165,7 @@ private void initView(){
 ```
 
 ## 搜索和关注好友
+
 <img src="https://s2.ax1x.com/2019/09/08/nGeycR.png" width="300"/> <img src="https://s2.ax1x.com/2019/09/08/nGe2B6.png" width="300"/>
 
 __查询好友id：__
@@ -205,7 +207,9 @@ private void search_fd(final EditText friendID){
   }
 ```
 __关注好友：__
+
 _将数据提交给服务器，服务器将关注信息保存到 **MySQL** 数据库中_
+
 ```javascript
 private void follow_fd(final EditText friendID) {
     btn_focus.setOnClickListener(new View.OnClickListener() {
@@ -247,8 +251,10 @@ private void follow_fd(final EditText friendID) {
     });
 }
 ```
+
 ## 浏览动态（点赞评论收藏） 
-<img src="https://s2.ax1x.com/2019/09/08/nGefAO.png" width="300"/> <img src="https://s2.ax1x.com/2019/09/08/nGe44e.png" width="300"/>
+
+<img src="https://s2.ax1x.com/2019/09/08/nGefAO.png" height="550"/> <img src="https://s2.ax1x.com/2019/09/08/nGe44e.png" height="550"/>
 
 点赞、评论和收藏全部放在一个 __Fragment__ 中，点赞和收藏可以直接向服务器发送请求，但是评论需要一个单独的Activity来get用户输入的具体评论信息，在那个Activity里面再进行数据上传，Fragment里面只调用这个Activity即可。
 
@@ -334,6 +340,7 @@ adapter.setOnItemPraiseClickListener(new ViewAdapter.onItemPraiseListener() {
 ```
 
 ## 发布动态
+
 <img src="https://s2.ax1x.com/2019/09/08/nGeUBV.png" width="300"/>
 
 把发布动态功能放在Fragment里面，发布功能实现还是利用OKHTTP3网络传输。图片上传仍使用第三方工具。
@@ -371,11 +378,13 @@ private void showAlbum() {
 ```
 
 ## 个人信息
+
 <img src="https://s2.ax1x.com/2019/09/08/nGegnx.png" width="300"/>
 
 对于收到的点赞/评论/我的收藏，均使用 _Handler机制_ 开启一个新的线程，搭配适配器进行页面显示。
 
 __我收到的点赞：__
+
 <img src="https://s2.ax1x.com/2019/09/08/nGVraF.png" width="300"/>
 
 ```javascript
@@ -388,6 +397,7 @@ Handler handler = new Handler(){
 ```
 
 __我收到的评论：__
+
 <img src="https://s2.ax1x.com/2019/09/08/nGeI9H.png" width="300"/>
 
 ```javascript
@@ -402,6 +412,7 @@ Handler handlerPra = new Handler(){
 ```
 
 __我的收藏：__
+
 <img src="https://s2.ax1x.com/2019/09/08/nGehND.png" width="300"/>
 
 ```javascript
